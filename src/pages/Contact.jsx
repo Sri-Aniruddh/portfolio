@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="relative flex items-top justify-center min-h-[700px]  dark:text-white dark:bg-gray-900 dark:border-gray-500 sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
-                    <div className="grid grid-cols-1 md:grid-cols-2 py-32 px-32  shadow-lg dark:shadow-lg bg-gray-200 rounded-xl dark:bg-opacity-1 dark:text-white dark:bg-gray-700 dark:border-gray-800 " >
+                    <div className="grid grid-cols-1 mb-5 mt-4 md:grid-cols-2 py-32 px-32  shadow-lg dark:shadow-lg bg-gray-200 rounded-xl dark:bg-opacity-1 dark:text-white dark:bg-gray-700 dark:border-gray-800 " >
                         <div className="p-12 dark:shadow-lg mr-2 bg-gray-300  rounded-xl shadow-lg dark:bg-opacity-1 dark:bg-gray-300  dark:text-black sm:rounded-lg">
                             <h1 className="text-3xl dark:text-gray-900 sm:text-4xl  font-extrabold tracking-tight">
                                 Get in touch:
