@@ -13,7 +13,10 @@ import html from './image/html.jpeg'
 import CSS from './image/CSS.jpeg'
 import C from './image/C.jpeg'
 import Python from './image/Python.jpeg'
-import mysql from '../../src/component/image/mysql.jpeg'
+import mysqlImage from './image/mysql.jpeg';
+
+
+
 import crncy from './image/crncy.jpeg'
 import twit from './image/twit.jpeg'
 import { useNavigate } from 'react-router-dom'
@@ -195,7 +198,7 @@ export function Banner() {
             <div className="col-3">
               <div className="w-60 shadow dark:shadow-lg dark:bg-gray-700 dark:border-black dark:text-white rounded-md border">
                 <img
-                  src={mysql}
+                  src={mysqlImage}
                   alt="Laptop"
                   className="h-50 w-full rounded-md object-cover"
                 />
