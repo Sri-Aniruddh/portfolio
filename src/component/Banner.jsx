@@ -15,6 +15,7 @@ import C from './image/C.jpeg'
 import Python from './image/Python.jpeg'
 import mysql from './image/mysql.jpeg'
 import crncy from './image/crncy.jpeg'
+import twit from './image/twit.jpeg'
 import { useNavigate } from 'react-router-dom'
 
 
@@ -232,7 +233,31 @@ export function Banner() {
             </div>
           </div>
           
+          <div className="col-6">
+            <div className="w-full shadow dark:shadow-lg  dark:bg-gray-700 dark:border-black dark:text-white rounded-md border">
+              <img
+                src={twit}
+                alt="currency convertor"
+                className="h-60  w-full rounded-md object-cover"
+              />
+              <div className="p-4">
+                <h1 className="text-lg font-semibold">Twitter Clone </h1>
+                <p className="mt-3 text-sm text-gray-600 dark:text-white">
+                  Here you add your post like a twit and it active twit will shown to every one and inactive twit you can se.
+                </p>
+                <button
+                  type="button"
+                  className="mt-4 btn btn-warning rounded-sm  dark:bg-white px-32 py-2 text-[10px] font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  href='https://twitter-blog-iota.vercel.app/'
+                ><a href='https://twitter-blog-iota.vercel.app/'> Go</a>
+
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+
+        
       </div>
     </Container>
   )
