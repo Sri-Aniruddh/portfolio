@@ -7,8 +7,8 @@ function PostCard({ yourSkill, fimg }) {
     // Use a try-catch block to handle errors
     try {
         return (
-            <div className='w-full rounded-lg shadow dark:bg-gray-800 dark:text-white'>
-                <div className='w-full justify-center mb-4'>
+            <div className='w-auto rounded-lg shadow dark:bg-gray-800 dark:text-white'>
+                <div className='w-auto justify-center mb-4'>
                     <img
                         src={imageUrl}
                         alt={yourSkill}
@@ -22,8 +22,8 @@ function PostCard({ yourSkill, fimg }) {
     } catch (error) {
         console.error('Error loading image:', error);
         return (
-            <div className='w-full bg-gray-400 rounded-xl p-4'>
-                <div className='w-full justify-center mb-4'>
+            <div className='w-auto bg-gray-400 rounded-xl p-4'>
+                <div className='w-auto justify-center mb-4'>
                     <span>Error loading image</span>
                 </div>
                 <h2 className='text-xl font-bold'>{yourSkill}</h2>
