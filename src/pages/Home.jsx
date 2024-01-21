@@ -21,10 +21,10 @@ function Home() {
   
     if (posts.length != 0) {
         return (
-            <div className="w-full py-0 mt-0 text-center dark:bg-gray-800 dark:text-white ">
+            <div className="w-auto py-0 mt-0 text-center dark:bg-gray-800 dark:text-white ">
                 <Container>
                     <div className="flex flex-wrap">
-                        <div className="p-8 w-full">
+                        <div className="p-8 w-auto">
                             <h1 className="text-2xl font-bold dark:hover:text-gray-200">
                                 Login to see portfolio
                             </h1>
@@ -37,7 +37,7 @@ function Home() {
 
     return (
         
-        <div className='w-full py-0'>
+        <div className='w-auto py-0'>
         <Container>
            <Banner/>
 
