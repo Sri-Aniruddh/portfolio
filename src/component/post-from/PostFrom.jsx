@@ -101,7 +101,7 @@ export default function PostForm({ post }) {
                     {...register("image", { required: !post })}
                 />
                 {post && post.fimg && (
-                    <div className="w-full mb-4">
+                    <div className="w-auto mb-4">
                         <img
                             src={appwriteService.getFilePreview(post.fimg)}
                             alt={post.yourSkill}
@@ -110,7 +110,7 @@ export default function PostForm({ post }) {
                     </div>
                 )}
               
-                <Button type="submit" bgColor={post ? "bg-green-500" : undefined} className="w-full dark:text-black dark:bg-white"  disabled={submitting}>
+                <Button type="submit" bgColor={post ? "bg-green-500" : undefined} className="w-auto dark:text-black dark:bg-white"  disabled={submitting}>
                     {post ? "Update" : "Submit"}
                 </Button>
             </div>
